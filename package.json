@@ -1,6 +1,6 @@
 {
   "name": "react-monaco-editor",
-  "version": "0.30.1",
+  "version": "1.30.1",
   "description": "Monaco Editor for React",
   "main": "lib/index.js",
   "module": "lib/index",
@@ -29,10 +29,10 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-monaco-editor/react-monaco-editor/issues"
+    "url": "https://github.com/zhixzhan/react-monaco-editor/issues"
   },
-  "homepage": "https://github.com/react-monaco-editor/react-monaco-editor",
-  "repository": "https://github.com/react-monaco-editor/react-monaco-editor",
+  "homepage": "https://github.com/zhixzhan/react-monaco-editor",
+  "repository": "https://github.com/zhixzhan/react-monaco-editor",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
     "@babel/core": "^7.5.5",
