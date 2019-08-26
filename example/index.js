@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import MonacoEditor, { MonacoDiffEditor } from "react-monaco-editor";
+import MonacoEditor, { MonacoDiffEditor } from "../src/index";
 
 class CodeEditor extends React.Component {
   constructor() {
@@ -67,7 +67,7 @@ class CodeEditor extends React.Component {
         <hr />
         <MonacoEditor
           height="400"
-          language="javascript"
+          language="typescript"
           value={code}
           options={options}
           onChange={this.onChange}
