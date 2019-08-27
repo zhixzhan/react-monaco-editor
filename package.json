@@ -9,6 +9,7 @@
   "scripts": {
     "preversion": "npm run lint",
     "build": "babel src --out-dir lib",
+    "compress": "rimraf release && mkdir release && cp -R lib src package.json README.md LICENSE.md yarn.lock ./release && cd release && tar -cf archive.tar.gz ./",
     "clean": "rimraf lib",
     "format": "eslint --fix '{src,test,example}/**/*.{ts,js}'",
     "lint": "eslint '{src,test,example}/**/*.{ts,js}'",
