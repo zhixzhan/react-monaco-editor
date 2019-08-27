@@ -59,7 +59,7 @@
   },
   "dependencies": {
     "@types/react": "^16.9.2",
-    "monaco-editor": "https://github.com/zhixzhan/monaco-editor/releases/download/1.17.1/archive.tar",
+    "monaco-editor": "https://github.com/zhixzhan/monaco-editor/releases/download/1.17.1/archive.tar.gz",
     "prop-types": "^15.7.2"
   }
 }
