@@ -19,7 +19,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
     "file-loader": "^4.1.0",
-    "monaco-editor-webpack-plugin": "^1.7.0",
+    "monaco-editor-webpack-plugin": "https://github.com/zhixzhan/monaco-editor-webpack-plugin/releases/download/11.7.1/monaco-editor-webpack-plugin-11.7.1.tgz",
     "style-loader": "^0.23.1",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6",

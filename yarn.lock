@@ -2255,9 +2255,9 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-"monaco-editor@https://github.com/zhixzhan/monaco-editor/releases/download/1.17.1/archive.tar":
-  version "1.17.1"
-  resolved "https://github.com/zhixzhan/monaco-editor/releases/download/1.17.1/archive.tar#b64a94e86c25f4540e0d365bcd60ebe7ba84c686"
+"monaco-editor@https://github.com/zhixzhan/monaco-editor/releases/download/1.17.5/monaco-editor-1.17.5.tgz":
+  version "1.17.5"
+  resolved "https://github.com/zhixzhan/monaco-editor/releases/download/1.17.5/monaco-editor-1.17.5.tgz#d8561c7bf37dce78e9aed87d788bebc8872daca4"
 
 ms@2.0.0:
   version "2.0.0"
