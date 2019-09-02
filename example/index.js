@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "react-dom";
-import MonacoEditor, { MonacoDiffEditor } from "react-monaco-editor";
+import MonacoEditor from "../src/index";
 
 class CodeEditor extends React.Component {
   constructor() {
@@ -67,7 +67,7 @@ class CodeEditor extends React.Component {
         <hr />
         <MonacoEditor
           height="400"
-          language="javascript"
+          language="botbuilderlg"
           value={code}
           options={options}
           onChange={this.onChange}
@@ -79,124 +79,10 @@ class CodeEditor extends React.Component {
   }
 }
 
-class AnotherEditor extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      code: ["{", '    "$schema": "http://myserver/foo-schema.json"', "}"].join(
-        "\n"
-      ),
-      language: "json"
-    };
-  }
-
-  changeLanguage = () => {
-    this.setState(prev => ({
-      language: prev.language === "json" ? "javascript" : "json"
-    }));
-  };
-
-  editorWillMount = monaco => {
-    monaco.languages.json.jsonDefaults.setDiagnosticsOptions({
-      validate: true,
-      schemas: [
-        {
-          uri: "http://myserver/foo-schema.json",
-          schema: {
-            type: "object",
-            properties: {
-              p1: {
-                enum: ["v1", "v2"]
-              },
-              p2: {
-                $ref: "http://myserver/bar-schema.json"
-              }
-            }
-          }
-        },
-        {
-          uri: "http://myserver/bar-schema.json",
-          schema: {
-            type: "object",
-            properties: {
-              q1: {
-                enum: ["x1", "x2"]
-              }
-            }
-          }
-        }
-      ]
-    });
-  };
-
-  render() {
-    const { code, language } = this.state;
-    return (
-      <div>
-        <div>
-          <button onClick={this.changeLanguage} type="button">
-            Change by setState
-          </button>
-          <span style={{ marginLeft: "3em" }}>
-            Language:
-            {this.state.language}
-          </span>
-        </div>
-        <hr />
-        <div>
-          <MonacoEditor
-            width="800"
-            height="300"
-            language={language}
-            defaultValue={code}
-            editorWillMount={this.editorWillMount}
-          />
-        </div>
-      </div>
-    );
-  }
-}
-
-class DiffEditor extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      code: 'const a = "Hello Monaco"',
-      original: 'const a = "Hello World"'
-    };
-  }
-
-  onChange = newValue => {
-    console.log("onChange", newValue); // eslint-disable-line no-console
-  };
-
-  render() {
-    const { code, original } = this.state;
-    return (
-      <div>
-        <MonacoDiffEditor
-          width="800"
-          height="300"
-          language="javascript"
-          value={code}
-          original={original}
-          onChange={this.onChange}
-        />
-      </div>
-    );
-  }
-}
-
 const App = () => (
   <div>
     <h2>Monaco Editor Sample (controlled mode)</h2>
     <CodeEditor />
-    <hr />
-    <h2>Another editor (uncontrolled mode)</h2>
-    <AnotherEditor />
-    <hr />
-    <h2>Another editor (showing a diff)</h2>
-    <DiffEditor />
   </div>
 );
 
