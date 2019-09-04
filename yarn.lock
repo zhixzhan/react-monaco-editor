@@ -740,10 +740,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bfcomposer/monaco-editor@^0.17.2":
-  version "0.17.2"
-  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/monaco-editor/-/@bfcomposer/monaco-editor-0.17.2.tgz#675f1f94c336155e5b2fe159f035cc7b13b38403"
-  integrity sha1-Z18flMM2FV5bL+FZ8DXMexOzhAM=
+"@bfcomposer/monaco-editor@^0.17.3":
+  version "0.17.3"
+  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/monaco-editor/-/@bfcomposer/monaco-editor-0.17.3.tgz#7ffc34139f8d02b8fdf296a727114430053c8454"
+  integrity sha1-f/w0E5+NArj98panJxFEMAU8hFQ=
 
 "@types/prop-types@*":
   version "15.7.1"
@@ -2642,16 +2642,7 @@ progress@^2.0.0:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-prop-types@^15.6.2:
-  version "15.7.2"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
-  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
-  dependencies:
-    loose-envify "^1.4.0"
-    object-assign "^4.1.1"
-    react-is "^16.8.1"
-
-prop-types@^15.7.2:
+prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
