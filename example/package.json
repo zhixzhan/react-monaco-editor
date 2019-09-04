@@ -19,16 +19,16 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
     "file-loader": "^4.1.0",
-    "monaco-editor-webpack-plugin": "https://botbuilder.myget.org/F/botbuilder-declarative/npm/monaco-editor-webpack-plugin/-/monaco-editor-webpack-plugin-1.7.0-composer.1.tgz",
     "style-loader": "^0.23.1",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "monaco-editor": "https://botbuilder.myget.org/F/botbuilder-declarative/npm/monaco-editor/-/monaco-editor-0.17.1-composer.1.tgz",
+    "@bfcomposer/monaco-editor": "^0.17.2",
+    "@bfcomposer/monaco-editor-webpack-plugin": "^1.7.2",
+    "@bfcomposer/react-monaco-editor": "^0.30.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-monaco-editor": "latest"
+    "react-dom": "^16.8.6"
   }
 }

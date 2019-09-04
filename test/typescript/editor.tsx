@@ -4,7 +4,7 @@ import MonacoEditor, {
   ChangeHandler,
   EditorWillMount
 } from "../..";
-import * as monacoEditor from "monaco-editor/esm/vs/editor/editor.api";
+import * as monacoEditor from "@bfcomposer/monaco-editor/esm/vs/editor/editor.api";
 
 type AppState = {
   code: string;

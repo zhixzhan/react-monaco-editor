@@ -1,4 +1,4 @@
-import * as monaco from "monaco-editor/esm/vs/editor/editor.api";
+import * as monaco from "@bfcomposer/monaco-editor/esm/vs/editor/editor.api";
 import PropTypes from "prop-types";
 import React from "react";
 import { noop, processSize } from "./utils";

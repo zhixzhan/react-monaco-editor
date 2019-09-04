@@ -1,4 +1,4 @@
-const MonacoWebpackPlugin = require("monaco-editor-webpack-plugin");
+const MonacoWebpackPlugin = require("@bfcomposer/monaco-editor-webpack-plugin");
 const path = require("path");
 
 const MonacoEditorSrc = path.join(__dirname, "..", "src");
