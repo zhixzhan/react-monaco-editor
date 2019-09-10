@@ -7,7 +7,7 @@ class CodeEditor extends React.Component {
     super();
     this.state = {
       code: "// type your code... \n",
-      theme: "vs-light"
+      theme: "lgtheme"
     };
   }
 
