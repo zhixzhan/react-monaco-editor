@@ -723,17 +723,17 @@
   dependencies:
     "@types/webpack" "^4.4.19"
 
-"@bfcomposer/monaco-editor@^0.17.2":
-  version "0.17.2"
-  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/monaco-editor/-/@bfcomposer/monaco-editor-0.17.2.tgz#675f1f94c336155e5b2fe159f035cc7b13b38403"
-  integrity sha1-Z18flMM2FV5bL+FZ8DXMexOzhAM=
+"@bfcomposer/monaco-editor@^0.17.4":
+  version "0.17.4"
+  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/monaco-editor/-/@bfcomposer/monaco-editor-0.17.4.tgz#bc2d75c48fcbee1121ee4c168c508de81bcd2ee9"
+  integrity sha1-vC11xI/L7hEh7kwWjFCN6BvNLuk=
 
-"@bfcomposer/react-monaco-editor@^0.30.2":
-  version "0.30.2"
-  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/react-monaco-editor/-/@bfcomposer/react-monaco-editor-0.30.2.tgz#cc9f847d5d025da7b807cd50117f06de44e0d2d9"
-  integrity sha1-zJ+EfV0CXae4B81QEX8G3kTg0tk=
+"@bfcomposer/react-monaco-editor@^0.30.4":
+  version "0.30.4"
+  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/react-monaco-editor/-/@bfcomposer/react-monaco-editor-0.30.4.tgz#3b7a6c60011218d3bc51f7eca5673341376db728"
+  integrity sha1-O3psYAESGNO8UffspWczQTdttyg=
   dependencies:
-    "@bfcomposer/monaco-editor" "^0.17.2"
+    "@bfcomposer/monaco-editor" "^0.17.4"
     "@types/react" "^16.9.2"
     prop-types "^15.7.2"
 
