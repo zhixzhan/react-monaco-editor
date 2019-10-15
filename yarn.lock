@@ -740,10 +740,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bfcomposer/monaco-editor@^0.17.4":
-  version "0.17.4"
-  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/monaco-editor/-/@bfcomposer/monaco-editor-0.17.4.tgz#bc2d75c48fcbee1121ee4c168c508de81bcd2ee9"
-  integrity sha1-vC11xI/L7hEh7kwWjFCN6BvNLuk=
+"@bfcomposer/monaco-editor@^0.17.5":
+  version "0.17.5"
+  resolved "https://botbuilder.myget.org/F/botbuilder-declarative/npm/@bfcomposer/monaco-editor/-/@bfcomposer/monaco-editor-0.17.5.tgz#ceefd34199784d3f2fb745191cafab13bc88a268"
+  integrity sha1-zu/TQZl4TT8vt0UZHK+rE7yIomg=
 
 "@types/prop-types@*":
   version "15.7.1"
