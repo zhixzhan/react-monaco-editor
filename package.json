@@ -1,6 +1,6 @@
 {
   "name": "@bfcomposer/react-monaco-editor",
-  "version": "0.30.6",
+  "version": "0.30.7",
   "description": "Monaco Editor for React",
   "main": "lib/index.js",
   "module": "lib/index",
@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@bfcomposer/monaco-editor": "0.17.6",
-    "@types/react": "^16.9.2",
+    "@types/react": "16.9.0",
     "prop-types": "^15.7.2"
   }
 }
